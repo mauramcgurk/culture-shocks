@@ -1,35 +1,54 @@
-/***GRID***/
-.full-width {
-  width: 1600px;
-}
+/*****CULTURE SHOCKS*****/
 
-.students {
- height: 400px;
- width: 400px;
-}
-.third-width {
- width: 30%;
- display: inline-block;
- margin-left: 50px;
-}
-
-#logo {
-  height: 300px;
-  padding-left: 380px;
-  padding-top: 50px;
-  align: center;
-}
+/*****BASE STYLES*****/
 body {
   font-family: 'Noto Sans', sans-serif;
   background-color: #67BBE1;
   color: white;
 }
 
+/***GRID***/
+.full-width {
+  width: 1200px;
+  /*****max-width: 1200px;*****/
+  margin: auto;
+}
+
+.third-width {
+  float:left;
+  width: 400px;
+ /*****display: inline-block;*****/
+ /*****margin-left: 50px;*****/
+}
+
+/*****HEADER*****/
 header {
   height: 500px;
-  text-transform: uppercase;
+  /*****text-align: center;*****/
+}
+
+header img {
+  /*****height: 200px;*****/
+  margin: 0 0 0 0;
+  padding: 50px 0 0 480px;
+  width: 300px;
+  /*****padding-top: 50px;*****/
+  /*****align: center;*****/
+}
+
+header h3 {
+  font-size: 36px;
   font-style: italic;
-  font-size: 75px;
+  padding-left: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  /*****width: 1200px;*****/
+}
+
+/*****MAIN*****/
+.students {
+ height: 400px;
+ width: 400px;
 }
 
 /*** for later maybe
