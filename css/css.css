@@ -23,46 +23,56 @@ body {
 
 /*****HEADER*****/
 header {
-  height: 500px;
+  height: 350px;
   /*****text-align: center;*****/
 }
 
 header img {
-  /*****height: 200px;*****/
   margin: 0 0 0 0;
-  padding: 50px 0 0 480px;
-  width: 300px;
-  /*****padding-top: 50px;*****/
-  /*****align: center;*****/
+  padding: 50px 0 0 350px;
+  width: 500px;
+  /*****align: center; DOESN'T EXIST*****/
 }
 
-header h3 {
+header h1 {
   font-size: 36px;
   font-style: italic;
-  padding-left: 100px;
+  line-height: 150%;
+  margin-top: 0px;
   text-align: center;
   text-transform: uppercase;
   /*****width: 1200px;*****/
 }
 
-/*****MAIN*****/
-.students {
- height: 400px;
- width: 400px;
+/*****ABOUT*****/
+main h2 {
+  font-size: 36px;
+  margin: 15px 0 5px 0;
+  padding: 0 0 0 0;
 }
 
-/*** for later maybe
-
-h1 {
-  font-size: 120px;
-  text-align: center;
+main p {
+  margin: 5px 0 25px 0;
 }
 
-h2 {
-  font-size: 60px;
+#left img, #center img, #right img {
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  padding: 10px 10px 10px 10px;
 }
-***/
+
+.third-width p {
+  width: 350px;
+}
 
 h3 {
   font-size: 50px;
 }
+
+/*****.students {
+ height: 400px;
+ width: 400px;
+}*****/
+
+/*****FOOTER*****/
