@@ -1,0 +1,5 @@
+.DS_Store
+img/.DS_Store
+# Don't track content of these folders
+.ds Store
+
