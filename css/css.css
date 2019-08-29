@@ -10,28 +10,23 @@ body {
 /***GRID***/
 .full-width {
   width: 1200px;
-  /*****max-width: 1200px;*****/
   margin: auto;
 }
 
 .third-width {
   float:left;
   width: 400px;
- /*****display: inline-block;*****/
- /*****margin-left: 50px;*****/
 }
 
 /*****HEADER*****/
 header {
   height: 350px;
-  /*****text-align: center;*****/
 }
 
 header img {
   margin: 0 0 0 0;
   padding: 50px 0 0 350px;
   width: 500px;
-  /*****align: center; DOESN'T EXIST*****/
 }
 
 header h1 {
@@ -41,18 +36,9 @@ header h1 {
   margin-top: 0px;
   text-align: center;
   text-transform: uppercase;
-  /*****width: 1200px;*****/
 }
 
-/*****ABOUT*****/
-about {
-  height: 800px;
-}
-
-#about h3 {
-  font-size: 24px;
-}
-
+/*****MAIN*****/
 main h2 {
   font-size: 36px;
   margin: 15px 0 5px 0;
@@ -63,12 +49,57 @@ main p {
   margin: 5px 0 25px 0;
 }
 
-#left img, #center img, #right img {
-  border-radius: 50%;
-  height: 320px;
-  width: 320px;
-  margin-left: 45px;
-  padding: 10px 0px 10px 0px;
+/*****ABOUT*****/
+#about {
+  height: 240px;
+}
+
+/*****DATA*****/
+#data {
+  height:1200px;
+}
+
+#data h3 {
+  font-size: 24px;
+  margin-top: 0px;
+  padding: 10px 0 15px 0;
+}
+
+#data img {
+  padding-bottom: 50px;
+}
+
+#data-box {
+  height: 360px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+
+#data h4 {
+  font-size: 100px;
+  margin: 20px 0 20px 0;
+  text-align:center;
+}
+
+#data p {
+  font-size: 50px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+/*****CONNECT*****/
+#description p {
+  font-size: 26px;
+  padding: 60px 20px 20px 20px;
+  text-align: center;
+}
+
+#left h5, #center h5, #right h5 {
+  font-size: 24px;
+  margin: 5px 0 15px 0;
+  padding-left: 140px;
 }
 
 .third-width p {
@@ -77,45 +108,23 @@ main p {
   width: 350px;
 }
 
-#left h4, #center h4, #right h4 {
-  font-size: 24px;
-  margin: 5px 0 15px 0;
-  padding-left: 140px;
-}
-
-/*****DATA*****/
-#data {
-  height: 600px;
-}
-
-#data h4 {
-  font-size: 36px;
-  margin: 20px 0 20px 0;
-  padding-top: 100px;
-}
-
-#data h5 {
-  font-size: 100px;
-  margin: 20px 0 20px 0;
-  text-align:center;
-}
-
-#data p {
-  font-size: 50px;
-  padding-bottom: 50px;
-  text-align: center;
+#left img, #center img, #right img {
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  margin-left: 45px;
+  padding: 10px 0px 10px 0px;
 }
 
 /*****FOOTER*****/
 #footer {
   clear: both;
   height: 60px;
-  /*****float:left;
-  height: 100px;*****/
   width:100%;
 }
 
 #footer p {
+  border-top: 3px solid white;
   font-size: 18px;
   padding: 20px 0 15px 0px;
   text-align: center;
